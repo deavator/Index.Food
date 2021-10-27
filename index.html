@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <title>Индекс Еда</title>
+</head>
+<body>
+
+    <header class="header wrapper">
+        <div class="header__navbar">
+            <div class="header__logo">
+                <a href="/"><img src="img/logo.png" alt="Лого"></a>
+                <p>Индекс<br>Еда</p>
+            </div>
+            <form class="header__input" action="#">
+                <input type="search" name="search" id="" placeholder="Блюда">
+                <img class = "header-search-icon" src="img/search-icon.svg" alt="">
+            </form>
+            <div class="header__btns">
+                <button>
+                    <span class="header__btn-text">Войти</span>
+                </button>
+                <!-- <img src="img/cart-btn.png" alt="cart-btn"> -->
+                <div class="cart-btn">
+                    <img class= "shopping-cart-icon" src="img/shopping-cart-icon.svg" alt="shopping cart">
+
+                    <div class="purchase-counter">
+                        <span class="purchase-counter-text">12</span>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    
+    </header>
+    <main class="wrapper">
+        <div class="slider">
+            <div class="slide slide-summer">
+                <h2 class="slide-title">Неделя летних овощей</h2>
+                <p class="slide-text">Специальная овощная корзина. Новые продукты,
+специальные цены, скидки!</p>
+                <a href="" class="button button-primary">Заказать со скидкой</a>
+            </div>
+        </div>
+
+        <div class="card-offer">
+
+            <section class="card sweet-backet">
+                <div class="card-wrapper">
+                    <div class="card-descr">
+                        <h3 class="card-title">Сладкая корзина</h3>
+                        <p class="card-text">Произвольный выбор десертов по Вашему желанию.</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="price-tag">ОТ 1 300 ₽</span>
+                        <p class="card-text">стоимость доставки до 200 ₽</p>
+                    </div>
+                    <a href="" class="button button-white">Собрать корзину</a>
+                    
+                </div>
+            </section>
+
+            <section class="card salad-plate">
+                <div class="card-wrapper">
+                    <div class="card-descr">
+                        <h3 class="card-title">Минимум усилий</h3>
+                        <p class="card-text">Произвольный выбор продуктов по Вашему желанию.</p>
+                    </div>
+                    <div class="card-price">
+                        <span class="price-tag">ОТ 700 ₽</span>
+                        <p class="card-text">стоимость доставки до 200 ₽</p>
+                    </div>
+                    <a href="" class="button button-white">Собрать корзину</a>
+                    
+                </div>
+            </section>
+
+        </div>
+    </main>
+</body>
+</html>

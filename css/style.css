@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 30px 0;
+    background-color: #fff;
+}
+
+.header__navbar {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 58px;
+    height: 58px;
+    padding: 5px;
+}
+
+.header__logo p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000;
+    display: block;
+}
+
+.header__input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background: rgba(238, 238, 238, 0.71);
+    border-radius: 10px;
+    border: none;
+    max-width: 620px;
+    flex-grow: 1;
+    height: 50px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.header__input input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 22px;
+}
+
+.header__input img {
+    position: absolute;
+    right: 20px;
+}
+
+.header__btns {
+    display: flex;
+    margin-left: auto;
+}
+
+.header__btns button {
+    background: #EBEBEB;
+    border-radius: 50px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.header__btns span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.cart-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #F66A15;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.purchase-counter {
+    position: absolute;
+    left: 35px;
+    top: 35px;
+    /* width: 18px;
+    height: 18px; */
+    background: #FFAF19;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.purchase-counter span {
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    padding: 5px;
+}
+
+.shopping-cart-icon {
+    width: 24px;
+    height: 24px;
+    /* justify-content: center; */
+}
+
+/* MAIN */
+
+.slide {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 20px;
+    height: 400px;
+    padding: 75px 110px 0;
+}
+
+.slide-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+    width: 370px;
+}
+
+.slide-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    width: 400px;
+    margin-bottom: 32px;
+}
+
+.button {
+    width: 245px;
+    height: 50px;
+    background: #F47322;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 12px 52px;
+}
+
+.slide-summer {
+    background-image: url('../img/summer-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CARD OFFER */
+
+.card-offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    width: 570px;
+    background-color: #ccc;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 35px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(.png); */
+}
+
+.card-wrapper {
+    position: relative;
+    width: 225px;
+}
+
+.card-descr {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 72px;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+}
+
+.card-price {
+    padding-bottom: 25px;
+}
+
+.price-tag {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    padding: 8px 0;
+}
+
+.button-white {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+}
+
+.sweet-backet {
+    background-image: url('../img/sweet-backet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 27px;
+}
+
+.salad-plate {
+    background-image: url('../img/salad-plate.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 27px;
+}
